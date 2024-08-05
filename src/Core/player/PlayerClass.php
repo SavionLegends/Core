@@ -301,7 +301,7 @@ class PlayerClass extends Player
 
         if(count($match->getPlayers()) === 2){
             return false;
-        }
+        } 
 
         if(!$match->isJoinable()){
             $this->sendMessage(Prefix::DEFAULT."Match #".$match->getName()." for ".$match->getGameType()." isn't joinable please try again later!");
