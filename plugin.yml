@@ -1,0 +1,49 @@
+name: Core
+main: Core\Main
+description: Core
+author: Savion
+api: "5.6.0"
+version: "BETA"
+permissions:
+  core.permissions.*:
+    description: "All perms"
+    default: op
+  core.permission.default:
+    description: "Default permission"
+    default: true
+  core.permissions.place:
+    description: "Placing blocks permission"
+    default: op
+  core.permissions.commands.lang:
+    description: "Language command permission"
+    default: true
+  core.permissions.commands.lobby:
+    description: "Lobby command permission"
+    default: true
+  core.permissions.commands.npc:
+    description: "NPC command permission"
+    default: op
+  core.permissions.commands.permission:
+    description: "Permissions command permission"
+    default: op
+  core.permissions.commands.quit:
+    description: "Quit command permission"
+    default: true
+  core.permissions.commands.stats:
+    description: "Stats command permission"
+    default: true
+  core.permissions.commands.help:
+    description: "Help command permission"
+    default: true
+  core.permissions.commands.me:
+    description: "Me command permission"
+    default: true
+  core.permissions.commands.tell:
+    description: "Tell command permissions"
+    default: true
+  core.permissions.commands.iron_soup:
+    description: "IronSoup command permissions"
+    default: true
+  core.permissions.commands.kohi:
+    description: "Kohi command permissions"
+    default: true
